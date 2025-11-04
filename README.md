@@ -34,7 +34,7 @@ Built to look elegant and feel dynamic every time you interact with it.
 
 - **HTML5** – Structure  
 - **CSS3** – Styling, transitions, and animations  
-- **JavaScript (ES6)** – Core logic, event handling, DOM manipulation  
+- **Vanilla JavaScript (ES6)** – Core logic, event handling, DOM manipulation  
 
 ---
 
@@ -46,6 +46,7 @@ To run locally:
    ```bash
    git clone https://github.com/Alana303/JavaScript-Project-Advanced-Calculator.git
 
+
 Open the project folder:
 
 cd JavaScript-Project-Advanced-Calculator
@@ -54,11 +55,36 @@ cd JavaScript-Project-Advanced-Calculator
 Open calculator.html in your browser.
 That’s it — you’re ready to calculate!
 
-Author
+
+## 📸 Screenshots  
+
+### 🔐   
+![Light Mode Screenshot](./images/Image2.png)
+![Dark Mode Screenshot](./images/Image1.png)
+
+## 🚀 Live Demo
+
+---
+
+## 📊 Pitch Deck
+📄 Project Pitch Deck  
+🌐 [View on Gamma](https://advanced-calculator-hc0orii.gamma.site/)  
+
+🧮 Calculator Interface
+Light Mode 💡	Dark Mode 🌙
+
+	
+
+🗂️ Local path:
+C:\xampp\htdocs\Reformation\Coding-Practice\JavaScript\JavaScriptProjects
+
+🧑‍💻 Author
 
 Jeff Amayo (Alana303)
 🎨 Frontend Web Developer | 💻 UI/UX Designer | ⚙️ JavaScript Enthusiast
-🔗 https://github.com/Alana303
+🔗 https://github.com/Alana303/JavaScript-Project-Advanced-Calculator
+
+📧 Email: alanaesmeralda045@gmail.com
 
 🏷️ License
 
