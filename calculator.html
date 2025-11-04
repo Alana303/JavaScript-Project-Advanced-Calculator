@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Calculator (Single Display Version)</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body class="light">
+
+  <h1 class="page-title">Advanced Calculator (Single Display Version)</h1>
+
+  <div class="container">
+    <!-- Left Section: Features -->
+    <div class="info-section features">
+      <h2>Features include:</h2>
+      <ul>
+        <li>🌗 Dark & Light mode toggle</li>
+        <li>⌨️ Full keyboard support</li>
+        <li>🎨 Button press animations</li>
+        <li>📜 Calculation history with auto-trim</li>
+        <li>🧮 Clickable history results</li>
+        <li>🧼 Clear history with fade-out animation</li>
+      </ul>
+    </div>
+
+    <!-- Center Section: Calculator -->
+    <div class="calculator">
+      <button id="theme-toggle">🌙 Dark Mode</button>
+      <button id="toggle-history">📜 Show History</button>
+
+      <input type="text" id="display" disabled placeholder="0">
+
+      <div id="history-container" class="hidden">
+        <h3>History</h3>
+        <button id="clear-history">Clear History</button>
+        <ul id="history-list"></ul>
+      </div>
+
+      <div class="buttons">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="deleteLast()">DEL</button>
+        <button onclick="appendValue('/')">÷</button>
+        <button onclick="appendValue('*')">×</button>
+
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('-')">-</button>
+
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="appendValue('+')">+</button>
+
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="calculateResult()">=</button>
+
+        <button onclick="appendValue('0')" class="zero">0</button>
+        <button onclick="appendValue('.')">.</button>
+      </div>
+    </div>
+
+    <!-- Right Section: Functionalities -->
+    <div class="info-section functionalities">
+      <h2>Functionalities include:</h2>
+      <ul>
+        <li>➕ Append numbers/operators</li>
+        <li>🔄 Delete or clear display</li>
+        <li>⚙️ Evaluate expressions instantly</li>
+        <li>💾 Auto-log each result in history</li>
+        <li>🔁 Click a past result to reuse it</li>
+        <li>🧹 Clear all history smoothly</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script1.js"></script>
+</body>
+</html>
